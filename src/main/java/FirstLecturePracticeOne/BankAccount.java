@@ -16,6 +16,7 @@ public class BankAccount {
         } else {
             System.out.println("Deposite amount must be positive.");
         }
+        System.out.println("");
     }
 
     //Withdraw method
@@ -26,12 +27,13 @@ public class BankAccount {
                 System.out.println("Account No: " + accountNumber);
                 System.out.println("Withdre amount: " + amount);
                 System.out.println("New balance : " + balance);
-            }else{
+            } else {
                 System.out.println("Insufficient balance.");
             }
-        }else{
+        } else {
             System.out.println("Withdrawal amount must be positive.");
         }
+        System.out.println("");
     }
 
 }

@@ -2,6 +2,7 @@ package main;
 
 //Import Another File
 import FirstLecture.FirstMain;
+import FirstLecturePracticeOne.FirstLecturePracticeOneMain;
 
 public class Main {
 
@@ -9,7 +10,12 @@ public class Main {
         
         //Initilize Other Packeg
         FirstMain firstLecture = new FirstMain();
-        firstLecture.firstLecture();
+//        firstLecture.firstLecture();
+        
+        //Lab one practice packeg
+        
+        FirstLecturePracticeOneMain firstLecturePracticeOne = new FirstLecturePracticeOneMain();
+        firstLecturePracticeOne.firstLecturePracticeOne();
         
         
         
